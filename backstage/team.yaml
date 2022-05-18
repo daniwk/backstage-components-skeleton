@@ -1,16 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: example-team
-  description: Example description
-  title: Example Title
+  name: example-team # Change this
+  description: Example description # Change this
+  title: Example Title # Change this
 spec:
   type: team
   profile:
-    displayName: example name
-    email: email@intility.no
-    picture: https://avatars.dicebear.com/api/identicon/example.svg?background=%23fff&margin=25
-  parent: example-parent
-  children: [example-child]
+    displayName: example name # Change this
+    email: email@intility.no # Change this
+    picture: https://avatars.dicebear.com/api/identicon/example.svg?background=%23fff&margin=25 # Change this
+  parent: example-parent # Change this
+  children: [example-child] # Change this
   members:
     - dani.wold.kristiansen # Gitlab username

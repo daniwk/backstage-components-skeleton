@@ -1,18 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: example-name
-  description: Example description
+  name: example-name # Change this
+  description: Example description # Change this
   annotations:
-    backstage.io/view-url: https://gitlab.intility.com/project-view-url
-    backstage.io/edit-url: https://gitlab.intility.com/project-edit-url
+    backstage.io/view-url: https://gitlab.intility.com/project-view-url # Change this
+    backstage.io/edit-url: https://gitlab.intility.com/project-edit-url # Change this
     backstage.io/techdocs-ref: dir:.
-  tags: [relevant, tags]
+  tags: [relevant, tags] # Change this
   links:
-    - url: https://gitlab.intility.com/project-url
+    - url: https://gitlab.intility.com/project-url # Change this
       title: GitLab Repo
       icon: code
 spec:
-  lifecycle: production
-  owner: example-team
-  system: example-system
+  lifecycle: production # Change this?
+  owner: example-team # Change this
+  system: example-system # Change this

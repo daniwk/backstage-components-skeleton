@@ -1,5 +1,5 @@
-site_name: example-name
-site_description: example description
+site_name: example-name # Change this
+site_description: example description # Change this
 
 nav:
   - Introduction: index.md

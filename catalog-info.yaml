@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-location
-  description: A collection of all example locations
+  name: example-location # Change this
+  description: A collection of all example locations # Change this
 spec:
   targets:
     - ./backstage/resources.yaml

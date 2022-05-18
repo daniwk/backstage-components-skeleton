@@ -1,24 +1,24 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: example-resource
-  title: Example Title
-  description: Example Description
+  name: example-resource # Change this
+  title: Example Title # Change this
+  description: Example Description # Change this
   annotations:
-    backstage.io/view-url: https://gitlab.intility.com/project-view-url
-    backstage.io/edit-url: https://gitlab.intility.com/project-edit-url
+    backstage.io/view-url: https://gitlab.intility.com/project-view-url # Change this
+    backstage.io/edit-url: https://gitlab.intility.com/project-edit-url # Change this
     backstage.io/techdocs-ref: dir:.
     # backstage.io/kubernetes-namespace: xx
     # backstage.io/kubernetes-label-selector: 'app=xx'
-  tags: [relevant, tags]
+  tags: [relevant, tags] # Change this
   links:
-    - url: https://gitlab.intility.com/project-url
+    - url: https://gitlab.intility.com/project-url # Change this
       title: GitLab Repo
       icon: code
 spec:
-  owner: example-team
-  type: database
-  system: example-system
+  owner: example-team # Change this
+  type: database # Change this?
+  system: example-system # Change this
   # dependencyOf: 
   #   - component:xx
   #   - component:xx
