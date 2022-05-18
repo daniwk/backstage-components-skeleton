@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: example-resource
+  title: Example Title
+  description: Example Description
+  annotations:
+    backstage.io/view-url: https://gitlab.intility.com/project-view-url
+    backstage.io/edit-url: https://gitlab.intility.com/project-edit-url
+    backstage.io/techdocs-ref: dir:.
+    # backstage.io/kubernetes-namespace: xx
+    # backstage.io/kubernetes-label-selector: 'app=xx'
+  tags: [relevant, tags]
+  links:
+    - url: https://gitlab.intility.com/project-url
+      title: GitLab Repo
+      icon: code
+spec:
+  owner: example-team
+  type: database
+  system: example-system
+  # dependencyOf: 
+  #   - component:xx
+  #   - component:xx

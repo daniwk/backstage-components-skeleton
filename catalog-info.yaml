@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-location
+  description: A collection of all example locations
+spec:
+  targets:
+    - ./backstage/resources.yaml
+    - ./backstage/system.yaml
+    - ./backstage/team.yaml
