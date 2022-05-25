@@ -7,7 +7,6 @@ metadata:
   annotations:
     backstage.io/view-url: https://gitlab.intility.com/project-view-url # Change this
     backstage.io/edit-url: https://gitlab.intility.com/project-edit-url # Change this
-    backstage.io/techdocs-ref: dir:.
     # backstage.io/kubernetes-namespace: xx
     # backstage.io/kubernetes-label-selector: 'app=xx'
   tags: [relevant, tags] # Change this
